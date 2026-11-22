@@ -4,90 +4,90 @@
   "sources": [
     {
       "id": "src-hist-courier",
-      "title": "Historical anchor for relay courier speeds (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Foot couriers and mounted relay posts covered roughly tens and a few hundred km per day respectively.",
+      "title": "NPS: Commemoration of the Pony Express",
+      "url": "https://www.nps.gov/articles/000/commemoration-of-the-pony-express.htm",
+      "section": "The Pony Express, first two paragraphs",
+      "claim": "The Pony Express relayed mail 1,966 miles in 10 days, about 316 km per day across the route. The game uses authored courier speeds of 40 and 200 km/day; these are not universal historical measurements.",
       "required": true
     },
     {
       "id": "src-hist-optical-telegraph",
-      "title": "Historical anchor for the optical (semaphore) telegraph (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Chains of semaphore towers passed coded messages between hilltop stations in the late 18th and 19th centuries.",
+      "title": "Smithsonian Libraries: The Chappe Semaphore",
+      "url": "https://sil.si.edu/Exhibitions/Underwater-web/uw-optic-02.htm",
+      "section": "The Chappe Semaphore, opening paragraph and tower illustration",
+      "claim": "From 1792, Chappe semaphore towers relayed coded messages using visible mechanical arms. The game's 200 km/hour is a simplified model value, not a fixed historical service speed.",
       "required": true
     },
     {
       "id": "src-hist-electric-telegraph",
-      "title": "Historical anchor for the electric telegraph (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Electric telegraph lines carried coded text over wires effectively instantly from the mid-19th century.",
+      "title": "ITU: From telegraph to telephone",
+      "url": "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
+      "section": "From telegraph to telephone, paragraphs on Wheatstone in 1839 and Morse in 1844",
+      "claim": "Commercial electric telegraphy carried coded messages over wires in the 19th century. The game simplifies propagation and omits operator coding and relay time.",
       "required": true
     },
     {
       "id": "src-hist-telephone",
-      "title": "Historical anchor for the telephone (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Telephone lines carried live voice over copper wire from the late 19th century.",
+      "title": "ITU: Telephone history",
+      "url": "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
+      "section": "ITU based in Switzerland, paragraphs on the 1876 telephone patent and long-distance speech",
+      "claim": "The telephone was patented in 1876 and enabled speech over wire connections. Its modeled propagation and costs are teaching assumptions.",
       "required": true
     },
     {
       "id": "src-ds0",
-      "title": "Standard: the 64 kbps digital voice channel (to be located)",
-      "url": null,
-      "section": null,
+      "title": "Cisco: Introduction to DWDM Technology",
+      "url": "https://www.cisco.com/c/dam/global/de_de/assets/verticals/consultant/pdf/dwdm.pdf#page=15",
+      "section": "Chapter 1, page 1-7, Table 1-1 and preceding text",
       "claim": "One digital voice channel (DS0) carries 64 kbps.",
       "required": true
     },
     {
       "id": "src-ds1",
-      "title": "Standard: T1 / DS1 line rate (to be located)",
-      "url": null,
-      "section": null,
+      "title": "Cisco: Introduction to DWDM Technology",
+      "url": "https://www.cisco.com/c/dam/global/de_de/assets/verticals/consultant/pdf/dwdm.pdf#page=15",
+      "section": "Chapter 1, page 1-7, Table 1-1 and preceding text",
       "claim": "A T1 (DS1) carries 1.544 Mbps: 24 channels of 64 kbps plus framing.",
       "required": true
     },
     {
       "id": "src-ds3",
-      "title": "Standard: T3 / DS3 line rate (to be located)",
-      "url": null,
-      "section": null,
+      "title": "Cisco: Introduction to DWDM Technology",
+      "url": "https://www.cisco.com/c/dam/global/de_de/assets/verticals/consultant/pdf/dwdm.pdf#page=15",
+      "section": "Chapter 1, page 1-7, Table 1-1 and preceding text",
       "claim": "A T3 (DS3) carries 44.736 Mbps, equivalent to 28 T1s or 672 voice channels.",
       "required": true
     },
     {
       "id": "src-sonet",
-      "title": "Standard: SONET OC-3, OC-12 and OC-48 line rates (to be located)",
-      "url": null,
-      "section": null,
+      "title": "Cisco: Introduction to DWDM Technology",
+      "url": "https://www.cisco.com/c/dam/global/de_de/assets/verticals/consultant/pdf/dwdm.pdf#page=15",
+      "section": "Chapter 1, page 1-7, Table 1-2 and preceding text",
       "claim": "SONET OC-3, OC-12 and OC-48 run at 155.52 Mbps, 622.08 Mbps and 2,488.32 Mbps.",
       "required": true
     },
     {
       "id": "src-fiber-speed",
-      "title": "Physical limit: signal speed in optical fiber (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Light in optical fiber (refractive index about 1.46) travels at roughly two-thirds of c, about 200,000 km/s.",
+      "title": "Fiber Optic Association: Optical Fiber for OSP Installations",
+      "url": "https://www.thefoa.org/tech/ref/OSP/fiber.html",
+      "section": "Chromatic Dispersion, paragraph on effective refractive index",
+      "claim": "Glass fiber has an effective refractive index around 1.45 and carries light at roughly two-thirds of its vacuum speed. The game rounds propagation to 200,000 km/s.",
       "required": true
     },
     {
       "id": "src-geo-altitude",
-      "title": "Physical limit: geostationary orbit altitude (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Geostationary satellites orbit about 35,786 km above the equator, so the up-and-down path is about 71,572 km.",
+      "title": "ESA: Geostationary orbit",
+      "url": "https://www.esa.int/media/geostationary-orbit",
+      "section": "Opening two paragraphs",
+      "claim": "Geostationary orbit is about 35,786 km above the equator. Doubling that altitude gives the game's idealized minimum up-and-down path of 71,572 km; slant paths, processing and terrestrial links are excluded.",
       "required": true
     },
     {
       "id": "src-speed-of-light",
-      "title": "Physical constant: the speed of light in vacuum (to be located)",
-      "url": null,
-      "section": null,
-      "claim": "Light travels at 299,792.458 km/s in vacuum.",
+      "title": "NIST: Meet the Constants",
+      "url": "https://www.nist.gov/si-redefinition/meet-constants",
+      "section": "c: the speed of light in vacuum",
+      "claim": "The exact vacuum speed of light is 299,792,458 m/s, or 299,792.458 km/s.",
       "required": true
     }
   ],
@@ -254,9 +254,7 @@
       },
       "circuits": 1,
       "source": "game-model",
-      "fieldSources": {
-        "speed": "src-hist-courier"
-      }
+      "fieldSources": {}
     },
     {
       "id": "horse-relay",
@@ -284,7 +282,7 @@
       "circuits": 1,
       "source": "game-model",
       "fieldSources": {
-        "speed": "src-hist-courier"
+        "historical context": "src-hist-courier"
       }
     },
     {
@@ -314,7 +312,7 @@
       "circuits": 1,
       "source": "game-model",
       "fieldSources": {
-        "speed": "src-hist-optical-telegraph"
+        "historical context": "src-hist-optical-telegraph"
       }
     },
     {
@@ -341,7 +339,7 @@
       "circuits": 1,
       "source": "game-model",
       "fieldSources": {
-        "speed": "src-hist-electric-telegraph"
+        "historical context": "src-hist-electric-telegraph"
       }
     },
     {
@@ -368,8 +366,8 @@
       "circuits": 1,
       "source": "game-model",
       "fieldSources": {
-        "speed": "src-hist-telephone",
-        "capacity": "src-ds0"
+        "historical context": "src-hist-telephone",
+        "digital voice comparison": "src-ds0"
       }
     },
     {
